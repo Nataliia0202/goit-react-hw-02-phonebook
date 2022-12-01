@@ -37,7 +37,7 @@ export const ContactsTitle = styled.h2`
 
 export const WarningMessage = styled.p`
   text-align: center;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   color: #082911;
 `;

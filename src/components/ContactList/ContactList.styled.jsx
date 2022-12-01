@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const ContactListStyle = styled.ul`
-  margin-top: 16px;
+  margin-top: 20px;
 `;
 
 export const ContactItem = styled.li`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   &:not(:last-child) {
     margin-bottom: 8px;
@@ -26,6 +26,6 @@ export const ButtonForDelete = styled.button`
   &:focus {
     transform: scale(1.15);
     color: #21201e;
-    background-color: #ede1f0;
+    background-color: #f9f7f9;
   }
 `;

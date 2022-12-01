@@ -67,10 +67,13 @@ export class App extends Component {
         style={{
           width: '500px',
           padding: '20px',
-          height: '100vh',
+          margin: '0 auto',
           justifyContent: 'center',
           alignItems: 'center',
           fontSize: 20,
+          border: '2px solid #082911',
+          borderRadius: '4px',
+          backgroundColor: '#ebdeec',
         }}
       >
         <div>

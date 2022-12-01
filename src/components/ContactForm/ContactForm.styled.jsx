@@ -40,6 +40,6 @@ export const ButtonForAdd = styled.button`
   &:focus {
     transform: scale(1.15);
     color: #21201e;
-    background-color: #ede1f0;
+    background-color: #f5f5f5;
   }
 `;
