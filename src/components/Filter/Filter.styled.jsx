@@ -4,7 +4,7 @@ export const LabelFilter = styled.label`
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   color: #290723;
 `;
