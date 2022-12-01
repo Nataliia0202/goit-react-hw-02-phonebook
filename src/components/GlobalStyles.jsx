@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
@@ -22,3 +22,22 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 `;
+
+export const MainTitle = styled.h1`
+  text-align: center;
+  margin-bottom: 32px;
+  color: #082911;
+`;
+
+// export const ContactsTitle = styled.h2`
+//   text-align: center;
+//   margin-bottom: ${p => p.theme.space[4]}px;
+//   color: ${p => p.theme.colors.almostDarkGreen};
+// `;
+
+// export const WarningMessage = styled.p`
+//   text-align: center;
+//   font-weight: ${p => p.theme.fontWeights.medium};
+//   font-size: ${p => p.theme.fontSizes.m};
+//   color: ${p => p.theme.colors.almostDarkGreen};
+// `;
