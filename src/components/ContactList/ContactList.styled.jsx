@@ -19,13 +19,13 @@ export const ButtonForDelete = styled.button`
   border-radius: 4px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  color: #decea9;
-  background-color: #082911;
+  color: #21201e;
+  background-color: #ddafdf;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     transform: scale(1.15);
-    color: #082911;
-    background-color: #decea9;
+    color: #21201e;
+    background-color: #ede1f0;
   }
 `;
