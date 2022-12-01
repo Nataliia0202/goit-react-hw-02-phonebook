@@ -15,7 +15,7 @@ export const ContactItem = styled.li`
 
 export const ButtonForDelete = styled.button`
   padding: 4px;
-  border: 2px solid #082911;
+  border: 2px solid #290723;
   border-radius: 4px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
@@ -24,7 +24,7 @@ export const ButtonForDelete = styled.button`
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    transform: scale(1.15);
+    transform: scale(1.12);
     color: #21201e;
     background-color: #f9f7f9;
   }

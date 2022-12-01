@@ -6,7 +6,7 @@ export const LabelFilter = styled.label`
   text-align: center;
   font-weight: 500px;
   font-size: 16px;
-  color: #082911;
+  color: #290723;
 `;
 
 export const InputFilter = styled.input`
@@ -15,6 +15,6 @@ export const InputFilter = styled.input`
   margin-right: auto;
   margin-left: auto;
   outline: none;
-  border: 2px solid #082911;
+  border: 2px solid #290723;
   border-radius: 4px;
 `;
