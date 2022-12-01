@@ -29,15 +29,15 @@ export const MainTitle = styled.h1`
   color: #082911;
 `;
 
-// export const ContactsTitle = styled.h2`
-//   text-align: center;
-//   margin-bottom: ${p => p.theme.space[4]}px;
-//   color: ${p => p.theme.colors.almostDarkGreen};
-// `;
+export const ContactsTitle = styled.h2`
+  text-align: center;
+  margin-bottom: 16px;
+  color: #082911;
+`;
 
-// export const WarningMessage = styled.p`
-//   text-align: center;
-//   font-weight: ${p => p.theme.fontWeights.medium};
-//   font-size: ${p => p.theme.fontSizes.m};
-//   color: ${p => p.theme.colors.almostDarkGreen};
-// `;
+export const WarningMessage = styled.p`
+  text-align: center;
+  font-weight: 500px;
+  font-size: 16px;
+  color: #082911;
+`;
