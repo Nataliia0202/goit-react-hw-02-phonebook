@@ -35,7 +35,7 @@ export class App extends Component {
       number,
     };
     return checkContact
-      ? toast.warn(`${name} is already in contacts`, { theme: 'colored' })
+      ? toast.warn(`${name} is already in contacts`, { theme: 'dark' })
       : this.setState(prevState => ({
           contacts: [newContact, ...prevState.contacts],
         }));
@@ -97,7 +97,7 @@ export class App extends Component {
         )}
         
         <GlobalStyle />
-        <ToastContainer autoClose={2500} />
+        <ToastContainer autoClose={5000} />
       </div>
     );
   }
